@@ -1,7 +1,7 @@
 {
   "name": "poc",
   "displayName": "poc",
-  "description": "",
+  "description": "Proof of concept extension that says hello world",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.107.0"
@@ -9,16 +9,11 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./out/extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "poc.helloWorld",
-        "title": "Hello World"
-      }
-    ]
-  },
+  "contributes": {},
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
