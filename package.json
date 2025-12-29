@@ -1,7 +1,9 @@
 {
   "name": "poc",
-  "displayName": "poc",
+  "publisher": "constructor",
+  "displayName": "constructor hello world poc",
   "description": "Proof of concept extension that says hello world",
+  "repository": "https://github.com/ivw/vscode-poc",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.107.0"
